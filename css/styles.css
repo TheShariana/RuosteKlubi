@@ -1,0 +1,153 @@
+html,body {
+    font: 400 1em Lato, sans-serif;
+    position: relative;
+    background-color: #06000a;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    min-width: 300px;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    color:#e6e6e8;
+  }
+.mainheader{
+  font-family: 'Roboto Slab', serif;
+  font-size: 3em;
+}
+h3, h4 {
+    margin: 10px 0 60px 0;
+    letter-spacing: 10px; 
+    font-size: 2rem;
+    color: #B7410E;
+}
+
+/*---------- Navigation Bar ---------------------*/
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 0.7rem;
+    letter-spacing: 4px;
+    opacity: 0.9;
+}
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+}
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.dropdown-menu{
+    background-color: #2d2d30;
+    top: 38px;
+    font-size: 0.7rem;
+}
+.dropdown-menu a{
+    background-color: #2d2d30;
+}
+.dropdown-menu a:hover {
+    background-color: #2d2d30;
+}
+
+/*------------- Carousel -----------------------*/
+
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+}
+.carousel-caption {
+  top: 200px;
+}
+.carousel-caption h3 {
+    color: #fff !important;
+}
+@media (max-width: 600px) {
+  .carousel-caption {
+    /*display: none; */
+  }
+}
+/*----------------------Sections -------------------------*/
+
+.section {
+    padding: 3rem 1.5rem;
+    display: block;
+}
+section.saannot,section.pluginit,section.palaute,section.adminit {
+    border-bottom: 1px solid rgba(230,230,232,.2);
+}
+/*---------------------- Rules --------------------------*/
+
+section.saannot p{
+    color: grey;
+    font-size: 1.1rem;
+    
+
+}
+/*---------------------- Plugins -------------------------*/
+
+.mapImg {
+    margin-bottom: 1rem;
+}
+.list-group-item {
+    background-color: transparent;
+    border: 1px solid grey;
+    color: #e6e6e8;
+    padding: 0.5rem;
+}
+.list-group-item:hover{
+    background-color: transparent;
+    color: #777;
+
+}
+/*---------------------- Admins --------------------------*/
+
+img.rounded-circle.admin {
+    max-width:120px;
+    border: 2px solid rgba(183, 65, 14, 1);
+}
+p.admin-name {
+    padding-top:1rem;
+    font-size:1.3rem;
+}
+p.admin-role {
+    margin-top:-1rem;
+    font-size:.8rem;
+    color:#B7410E;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*----------------- Feedback ---------------------*/
+
+.form-control {
+    border-radius: 0;
+}
+textarea {
+    resize: none;
+}
+/*------------------- Footer --------------*/
+
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
+footer a {
+    color: #f5f5f5;
+}
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
