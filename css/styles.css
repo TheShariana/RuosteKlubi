@@ -80,8 +80,13 @@ h3, h4 {
     padding: 3rem 1.5rem;
     display: block;
 }
-section.saannot,section.pluginit,section.palaute,section.adminit {
+section.server,section.saannot,section.pluginit,section.palaute,section.adminit {
     border-bottom: 1px solid rgba(230,230,232,.2);
+}
+/*---------------------- Server --------------------------*/
+
+section.server h5{
+    margin: 1rem;
 }
 /*---------------------- Rules --------------------------*/
 
